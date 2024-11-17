@@ -34,4 +34,4 @@ jobs:
     - name: Use Skopeo Tools Sync Image to Docker Hub
       run: |
         #!/usr/bin/env bash
-        skopeo copy docker://docker.io/infiniflow/ragflow:dev docker://registry.cn-hangzhou.aliyuncs.com/infiniflow/ragflow:dev-slim
+        skopeo copy docker://docker.io/infiniflow/ragflow:dev docker://crpi-ltzs4g4ekxi1mhmp.cn-shanghai.personal.cr.aliyuncs.com/infiniflow/ragflow:dev-slim
